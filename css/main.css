@@ -1,0 +1,79 @@
+@charset "UTF-8";  
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+/* font-family: 'Audiowide', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    text-align: center;
+}
+
+h1, h2, p {
+  color: rgba(0,0,0, 0.8);
+}
+
+ul, li {
+  list-style: none;
+}
+
+header {
+  font-family: 'Audiowide', cursive;
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  right: 20px
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section.mainVisual {
+  height: 80vh;
+  width: 100%;
+}
+
+section.mainVisual h1 {
+  padding-top : 30vh;
+  font-size: 60px;
+  padding-bottom: 1em;
+}
+
+section.mainVisual p {
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+section.works {
+  padding: 24px;
+  margin-bottom: 40vh;
+}
+
+section.works h2 {
+  font-size: 42px;
+  margin-bottom: 1em;
+}
+
+section.works ul li {
+  line-height: 2;
+  font-size: 24px; 
+}
+
+footer {
+  padding: 24px;
+  line-height: 2;
+  background: #222;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
