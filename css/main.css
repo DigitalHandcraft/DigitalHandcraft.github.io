@@ -33,7 +33,6 @@ header {
 
 section {
   margin-bottom: 80px;
-  background: #fcfcfc;
 }
 
 section.mainVisual {
@@ -72,4 +71,9 @@ footer {
   line-height: 2;
   background: #222;
   color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
