@@ -21,49 +21,44 @@ h1, h2, p {
 
 ul, li {
   list-style: none;
-}
-
-header {
-  font-family: 'Audiowide', cursive;
-  font-size: 18px;
-  position: absolute;
-  top: 20px;
-  right: 20px
+  line-height: 2;
 }
 
 section {
   margin-bottom: 80px;
+  width: 100%;
+}
+
+h1, h2 {
+  padding-bottom: 1em;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+ul, li {
+  font-size: 24px; 
 }
 
 section.mainVisual {
   height: 80vh;
-  width: 100%;
 }
 
 section.mainVisual h1 {
   padding-top : 30vh;
-  font-size: 60px;
-  padding-bottom: 1em;
 }
 
 section.mainVisual p {
-  padding: 1em;
   font-size: 1.5em;
 }
 
 section.works {
-  padding: 24px;
   margin-bottom: 40vh;
-}
-
-section.works h2 {
-  font-size: 42px;
-  margin-bottom: 1em;
-}
-
-section.works ul li {
-  line-height: 2;
-  font-size: 24px; 
 }
 
 footer {
@@ -71,9 +66,9 @@ footer {
   line-height: 2;
   background: #222;
   color: #fff;
+  text-decoration: none;
 }
 
 footer a {
   color: #fff;
-  text-decoration: none;
 }
