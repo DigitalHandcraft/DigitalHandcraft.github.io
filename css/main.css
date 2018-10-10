@@ -10,23 +10,21 @@
   padding: 0;
 }
 
+html, body {
+  width: 100%;
+}
+
 body {
     font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     text-align: center;
 }
 
+section {
+  padding-bottom: 5vh;
+}
+
 h1, h2, p {
   color: rgba(0,0,0, 0.8);
-}
-
-ul, li {
-  list-style: none;
-  line-height: 2;
-}
-
-section {
-  margin-bottom: 80px;
-  width: 100%;
 }
 
 h1, h2 {
@@ -42,31 +40,83 @@ h2 {
 }
 
 ul, li {
-  font-size: 24px; 
+  font-size: 30px; 
 }
 
-section.mainVisual {
-  height: 80vh;
+.mainVisual {
+  margin-top: 30vh;
 }
 
-section.mainVisual h1 {
-  padding-top : 30vh;
-}
-
-section.mainVisual p {
+.mainVisual p {
   font-size: 1.5em;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-section.works {
-  margin-bottom: 40vh;
+.works {
+  width: 100%;
+  height: 300px;
+}
+
+.works ul, .works li {
+  list-style: none;
+  line-height: 2;
+}
+
+.works li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.socialLinks {
+  width: 100%;
+}
+
+.socialLinks ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;  /* 子要素をflexboxにより中央に配置する */
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 auto;
+  color: rgba(0,0,0, 0.8);
+}
+
+.socialLinks ul li a {
+  color: rgba(0,0,0, 0.8);
+  text-decoration: none;
+  display: block;
+  width: 250px;
+}
+
+.socialLinks ul li {
+  transition: .2s linear;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+
+.socialLinks li:hover {
+  transition: .2s linear;
+  text-shadow: 0 2px 2px rgba(0,0,0, 0.2);
+}
+
+.socialLinks .iconArea {
+  font-size: 168.1px;
+}
+
+.socialLinks .textArea {
+  font-size: 30px;
 }
 
 footer {
-  padding: 24px;
+  margin-top: 240px;
   line-height: 2;
   background: #222;
   color: #fff;
   text-decoration: none;
+  width: 100%;
 }
 
 footer a {
