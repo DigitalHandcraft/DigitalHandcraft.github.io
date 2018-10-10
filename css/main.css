@@ -112,6 +112,8 @@ ul, li {
 
 footer {
   margin-top: 240px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   line-height: 2;
   background: #222;
   color: #fff;
